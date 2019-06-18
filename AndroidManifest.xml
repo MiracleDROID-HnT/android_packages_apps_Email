@@ -70,7 +70,7 @@
     <!-- Grant permission to system apps to access provider (see provider below) -->
     <permission
         android:name="com.android.email.permission.ACCESS_PROVIDER"
-        android:protectionLevel="signature"
+        android:protectionLevel="signatureOrSystem"
         android:label="@string/permission_access_provider_label"
         android:description="@string/permission_access_provider_desc"/>
     <uses-permission
